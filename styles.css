@@ -32,7 +32,6 @@
   
   .content {
     font-size: 0;
-    background-color: #8aafcf;
     width: 770px;
     margin: 0 auto;
   }
@@ -48,9 +47,13 @@
     width: 360px;
     margin-bottom: 50px;
     margin-right: 50px;
-    border: 1px solid rgb(250 50 50 / 0.4);
+    border: 1px solid black;
     padding: 25px 25px 30px;
-    background-color: #e3f3ff;
+    box-shadow: 4px 4px 0 black;
+  }
+
+  .no-right-margin {
+    margin-right: 0;
   }
   
   .card-title {
@@ -68,5 +71,5 @@
   .card-image {
     width: 100%;
     margin-bottom: 20px;
-    border: 1px solid rgb(250 50 50 / 0.4);
+    border: 1px solid black;
   }
